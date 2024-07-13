@@ -1,7 +1,7 @@
-# Ansible Project 1
+## Ansible Project 1
 Install apache on two Vagrant VMs
 
-## Steps
+### Steps
 1. Setup Ansible Controller Machine
 2. Setup SSH on Controller Machine
 3. Setup Ansible Host Machines
