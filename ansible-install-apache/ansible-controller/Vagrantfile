@@ -1,0 +1,15 @@
+Vagrant.configure("2") do |config|
+
+  config.vm.define "ansible-controller" do |controller|
+    controller.vm.hostname = "controller"
+    controller.vm.network "private_network", ip: "192.168.10.10"
+    controller.vm.box = "ubuntu/focal64"
+    
+    controller.vm.provision "shell", inline: <<-SHELL
+      sudo apt update -y
+      sudo add-apt-repository --yes --update ppa:ansible/ansible
+      sudo apt install ansible -y
+    SHELL
+  end
+
+end
