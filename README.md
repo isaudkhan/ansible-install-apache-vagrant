@@ -7,4 +7,4 @@ Install apache on two Vagrant VMs using Ansible
 3. Setup Ansible Host Machines
 4. Test connection between Controller and Hosts
 5. Create Hosts and Playbook file on Controller Machine
-6. Run playbook file on Controller Machine
+6. Run Playbook file on Controller Machine
