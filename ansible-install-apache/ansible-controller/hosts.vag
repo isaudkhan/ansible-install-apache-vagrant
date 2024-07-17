@@ -1,3 +1,0 @@
-[servers]
-web ansible_host=192.168.10.20
-app ansible_host=192.168.10.30
