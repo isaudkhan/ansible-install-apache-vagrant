@@ -1,5 +1,5 @@
 ## Ansible Project 1
-Install apache on two Vagrant VMs
+Install apache on two Vagrant VMs using Ansible
 
 ### Steps:
 1. Setup Ansible Controller Machine
