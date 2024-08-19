@@ -39,8 +39,8 @@ vi ansible-install-apache-vagrant.yml
 ```
 6. Run playbook on ansible-controller
     - SSH to ansible-controller machine: vagrant ssh <br>
-    - Run playbook file <br>
+    - Run playbook file ( -l : for specific host ) <br>
 ```
-ansible-playbook -i hosts playbook.yml (for all hosts)
-ansible-playbook -i hosts -l web playbook.yml (for specific host)
+ansible-playbook -i hosts playbook.yml
+ansible-playbook -i hosts -l web playbook.yml
 ```
